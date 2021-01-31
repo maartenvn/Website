@@ -1,0 +1,14 @@
+{
+    "name": "Maarten Van Neyghem",
+    "short_name": "Maarten Van Neyghem",
+    "icons": [
+        {
+            "src": "/img/icons/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#6699ff",
+    "background_color": "#6699ff",
+    "display": "standalone"
+}
