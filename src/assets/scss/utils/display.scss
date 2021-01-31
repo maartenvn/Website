@@ -1,0 +1,66 @@
+@media (max-width: $breakpoint-xs) {
+    .hidden-xs-and-down {
+        display: none !important;
+    }
+}
+
+@media (max-width: $breakpoint-sm) {
+    .hidden-sm-and-down {
+        display: none !important;
+    }
+}
+
+@media (max-width: $breakpoint-md) {
+    .hidden-md-and-down {
+        display: none !important;
+    }
+}
+
+@media (max-width: $breakpoint-lg) {
+    .hidden-lg-and-down {
+        display: none !important;
+    }
+}
+
+@media (max-width: $breakpoint-xl) {
+    .hidden-xl-and-down {
+        display: none !important;
+    }
+}
+
+@media (min-width: $breakpoint-xs) {
+    .hidden-xs-and-up {
+        display: none !important;
+    }
+}
+
+@media (min-width: $breakpoint-xs) {
+    .hidden,
+    .hidden-xs-and-up {
+        display: none !important;
+    }
+}
+
+@media (min-width: $breakpoint-sm) {
+    .hidden-sm-and-up {
+        display: none !important;
+    }
+}
+
+@media (min-width: $breakpoint-md) {
+    .hidden-md-and-up {
+        display: none !important;
+    }
+}
+
+@media (min-width: $breakpoint-lg) {
+    .hidden-lg-and-up {
+        display: none !important;
+    }
+}
+
+@media (min-width: $breakpoint-xl) {
+    .hidden-xl-and-up {
+        display: none !important;
+    }
+}
