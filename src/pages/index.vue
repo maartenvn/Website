@@ -6,7 +6,7 @@
                 <div class="hero-title">Maarten Van Neyghem</div>
 
                 <div class="hero-description">
-                    Student Computer Sciences at Ghent University. Passionate
+                    Computer Science Student at Ghent University. Passionate
                     front-end developer in various frameworks/languages.
                 </div>
             </div>
