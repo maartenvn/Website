@@ -20,7 +20,7 @@ export default {
      */
     head: {
         title:
-            "Maarten Van Neyghem - Student Computer Sciences at Ghent University",
+            "Maarten Van Neyghem - Computer Science Student at Ghent University",
         meta: [
             /**
              * Defaults
@@ -46,7 +46,7 @@ export default {
             {
                 hid: "description",
                 name: "description",
-                content: "Student Computer Sciences at Ghent University"
+                content: "Computer Science Student at Ghent University"
             },
             {
                 hid: "image",
@@ -79,7 +79,7 @@ export default {
             {
                 hid: "schema-description",
                 itemprop: "description",
-                content: "Student Computer Sciences at Ghent University"
+                content: "Computer Science Student at Ghent University"
             },
             {
                 hid: "schema-image",
@@ -101,7 +101,7 @@ export default {
             {
                 hid: "twitter:description",
                 name: "twitter:description",
-                content: "Student Computer Sciences at Ghent University"
+                content: "Computer Science Student at Ghent University"
             },
             {
                 hid: "twitter:site",
@@ -123,7 +123,7 @@ export default {
             {
                 hid: "og:description",
                 property: "og:description",
-                content: "Student Computer Sciences at Ghent University"
+                content: "Computer Science Student at Ghent University"
             },
             {
                 hid: "og:image",
