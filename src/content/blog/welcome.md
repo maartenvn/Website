@@ -1,6 +1,6 @@
 ---
 title: Welcome to my brand new website!
-description: "For being a web-developer, it's about time!"
+description: "Being a web-developer myself, about time!"
 date: 2020-02-01
 image: /img/content/blog/welcome.jpg
 tags:
@@ -9,7 +9,7 @@ layout:
     width: full
 ---
 
-I have been postphoning a personal website for years in favor of other projects, but I finally found the time to create it. I hope you find the finishing result as stunning as I hope you do.
+I have been postphoning a personal website for years in favor of other projects, but I finally found the time to create it. I hope you find the finished result as stunning as I do.
 
 ## The stack
 
