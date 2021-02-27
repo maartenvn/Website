@@ -46,7 +46,7 @@
             <div class="cv-section-content">
                 <div class="cv-subsection">
                     <div>
-                        <strong>Latijn-Wiskunde</strong>
+                        <strong>Wetenschappen-Wiskunde</strong>
 
                         <i>(2012 - 2018)</i>
                     </div>
