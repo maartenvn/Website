@@ -118,7 +118,7 @@ export default {
             {
                 hid: "og:title",
                 property: "og:title",
-                content: "Maarten Van Neygem"
+                content: "Maarten Van Neyghem"
             },
             {
                 hid: "og:description",
