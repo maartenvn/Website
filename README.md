@@ -42,8 +42,8 @@ yarn build
 
 ### Code Style and formatting
 
-This project relies heavily on [ESLint][https://eslint.org/] and [Prettier][https://prettier.io/] to enforce consistent
-formatting and coding styles. A [pre-commit-hook][https://githooks.com/] runs every time you try to commit,
+This project relies heavily on [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) to enforce consistent
+formatting and coding styles. A [pre-commit-hook](https://githooks.com/) runs every time you try to commit,
 linting and reformatting the staged files. This allows you to basically forget about formatting,
 prettier is much better at it anyway.
 
