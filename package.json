@@ -3,10 +3,10 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        "dev": "nuxt-ts",
-        "build": "nuxt-ts build",
-        "start": "nuxt-ts start",
-        "generate": "nuxt-ts generate",
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
         "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
         "lint": "yarn lint:js"
     },
@@ -21,7 +21,6 @@
     "dependencies": {
         "@mdi/js": "^5.9.55",
         "@nuxt/content": "^1.14.0",
-        "@nuxt/typescript-runtime": "^2.1.0",
         "@nuxtjs/style-resources": "^1.0.0",
         "bootstrap": "^4.6.0",
         "core-js": "^3.9.1",
@@ -44,6 +43,6 @@
         "lint-staged": "^10.5.4",
         "prettier": "^2.1.2",
         "sass": "^1.32.8",
-        "sass-loader": "^11.0.1"
+        "sass-loader": "^10.0.1"
     }
 }
