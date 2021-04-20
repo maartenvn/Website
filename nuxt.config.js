@@ -240,7 +240,7 @@ export default {
      * Modules for dev and build (recommended)
      * @ref https://go.nuxtjs.dev/config-modules
      */
-    buildModules: ["@nuxt/typescript-build", "@nuxtjs/composition-api"],
+    buildModules: ["@nuxt/typescript-build", "@nuxtjs/composition-api/module"],
 
     /**
      * Modules
