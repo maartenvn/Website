@@ -1,7 +1,7 @@
 <template>
     <div class="project-card card card--stretch">
         <!-- Image -->
-        <v-img :src="project.image" :alt="project.title">
+        <v-img :src="project.image || ''" :alt="project.title">
             <!-- Placeholder -->
             <template #placeholder>
                 <div class="v-img v-img-placeholder">
