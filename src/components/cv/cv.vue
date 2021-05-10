@@ -80,68 +80,61 @@
             <!-- Content -->
             <div class="cv-section-content">
                 <ul>
+                    <li>Kennis van verscheidene programmeertalen:</li>
+
+                    <ul>
+                        <li><b>JavaScript/TypeScript</b></li>
+                        <li><b>HTML/CSS</b> <i>(SASS, SCSS)</i></li>
+                        <li><b>Python</b></li>
+                        <li><b>Java</b></li>
+                        <li>
+                            <b>Kotlin</b>
+                            (Android Applicaties, Spring Boot)
+                        </li>
+                        <li>
+                            <b>SQL</b>
+                            (PostgreSQL, MySQL, SQLite)
+                        </li>
+                        <li><b>C/C++</b></li>
+                    </ul>
+
+                    <br />
+
                     <li>
-                        Interesse en ervaring met verschillende programmeertalen
-                        en frameworks
+                        Full-stack web developer in verschillende
+                        programmeertalen en frameworks:
                     </li>
 
                     <ul>
                         <li>
-                            <strong>Javascript/Typescript (uitgebreid)</strong>
-
-                            <i>
-                                (Node.JS, Vue, React, Nest.JS, Nuxt.JS, Next.JS,
-                                JQuery, Svelte)
-                            </i>
+                            <b>Frontend Frameworks:</b> Vue, Nuxt, React, Next,
+                            Svelte & JQuery
                         </li>
 
                         <li>
-                            <strong>HTML/CSS/SCSS (uitgebreid)</strong>
+                            <b>Backend Frameworks:</b> Express.js, Nest.js,
+                            Spring Boot & Flask
                         </li>
 
-                        <li>
-                            <strong>Python (uitgebreid)</strong>
+                        <li><b>Databases:</b> PostgreSQL, MySQL & SQLite 3</li>
 
-                            <ul>
-                                <li>
-                                    <strong>Machine Learning</strong>
-                                    <i>(Tensorflow, Keras, Numpy)</i>
-                                </li>
+                        <li><b>Architecturen:</b> REST & GraphQL</li>
+                    </ul>
 
-                                <li>
-                                    <strong>Back-end Development</strong>
-                                    <i>(Flask, Django)</i>
-                                </li>
-                            </ul>
-                        </li>
+                    <br />
 
-                        <li>
-                            <strong>Java (uitgebreid)</strong>
+                    <li>Ervaring met systeembeheer van (web) platformen:</li>
 
-                            <i>(Spring Boot, Hibernate, Maven, Gradle)</i>
-                        </li>
+                    <ul>
+                        <li><b>Orchestration:</b> Docker & Docker Compose</li>
 
-                        <li>
-                            <strong>Kotlin (uitgebreid)</strong>
+                        <li><b>CI/CD:</b> Jenkins, Travis & Github Actions</li>
 
-                            <i>(Android Development, Spring Boot)</i>
-                        </li>
+                        <li><b>Operating Systems:</b> Ubuntu & Arch Linux</li>
 
-                        <li>
-                            <strong>SQL (uitgebreid)</strong>
+                        <li><b>Version Control:</b> Git, Github & Gitlab</li>
 
-                            <i>(MySQL, PostgreSQL, SQLite 3)</i>
-                        </li>
-
-                        <li>
-                            <strong>C/C++ (gemiddeld)</strong>
-                        </li>
-
-                        <li>
-                            <strong>Haskell (gemiddeld)</strong>
-
-                            <i>(Gloss)</i>
-                        </li>
+                        <li><b>Andere tools:</b> NGINX, Let's Encrypt</li>
                     </ul>
                 </ul>
             </div>
@@ -163,8 +156,18 @@
 
                     <div>
                         Programmeren als hobby in verschillende programmeertalen
-                        en meewerken aan enkele kleine projecten in teams van
-                        een 5-tal mensen. Vooral gericht rond web-development.
+                        aan hobby of bestaande open-source projecten. Deze
+                        projecten zijn vooral gericht rond web development.
+                        <br />
+                        Deze projecten zijn te vinden op mijn persoonlijke
+                        website.
+                        <a href="https://maartenvn.be" target="_blank"
+                            >maartenvn.be</a
+                        >
+                        of op
+                        <a href="https://github.com/maartenvn" target="_blank"
+                            >Github</a
+                        >
                     </div>
                 </div>
 
@@ -172,16 +175,25 @@
                     <div>
                         <strong> Webplatform Oilsjt Mjoezik </strong>
 
-                        <i>(2017 - heden)</i>
+                        <i>(2018 - heden)</i>
                     </div>
 
                     <div>
                         Deze opdracht bestond uit het volledig uitwerken en
                         programmeren van de website van de Aalsterse
-                        carnavalsradio Oilsjt Mjoezik (www.oilsjtmjoezik.be).
+                        carnavalsradio Oilsjt Mjoezik (<a
+                            href="https://www.oilsjtmjoezik.be"
+                            target="_blank"
+                            >www.oilsjtmjoezik.be</a
+                        >)
+                        <br />
                         Dit project werd gerealiseerd in 2 weken en werd
-                        geschreven in Vue <i>(Nuxt.JS)</i> en Node.JS
-                        <i>(Nest.JS).</i>
+                        geschreven in Vue <i>(Nuxt)</i> en Node.js
+                        <i> (Nest.js)</i> met een Directus admin paneel voor de
+                        eindgebruikers.
+                        <br />
+                        Het platform draait volledig in docker containers en
+                        wordt automatisch gedeployed via een Jenkins server.
                     </div>
                 </div>
 
@@ -197,7 +209,10 @@
                         Services Squad. Deze job bestond uit het realiseren van
                         een klein project rond het crowdsourcen van
                         trainingphrases voor de chatbot Marie en het ontwikkelen
-                        van een label tool voor data-anonimisatie.
+                        van een label tool voor data-anonimisatie. Deze job
+                        speelde zich af in een Agile omgeving, gebruik makende
+                        van het SCRUM model en werken met de Sprint
+                        planningstool Service Now.
                     </div>
                 </div>
 
@@ -210,9 +225,13 @@
 
                     <div>
                         Ontwerpen en programmeren van de website van
-                        studenten-vereniging Caepa Vestigia (caepavestigia.be).
-                        Dit project werd geschreven in Vue en Node.JS
-                        <i>(Express)</i>.
+                        studenten-vereniging Caepa Vestigia (<a
+                            href="https://www.caepavestigia.be"
+                            target="_blank"
+                            >www.caepavestigia.be</a
+                        >). Dit project werd geschreven in Vue en Node.js
+                        <i>(Express)</i> en wordt gedeployed via een Ansible
+                        script op een Ubuntu Linux server.
                     </div>
                 </div>
 
@@ -226,8 +245,16 @@
                     <div>
                         Directus is een open-source real-time database-driven
                         headless-CMS voor het beheren van SQL database content
-                        geschreven in Vue.JS & Node.JS. Ik ben een actieve
-                        contributor aan dit project.
+                        en is geschreven in Vue & Node.js. Het zet een
+                        relationele SQL database om naar een REST & GraphQL API
+                        en geeft een gebruikersvriendelijke Vue admin applicatie
+                        aan de eindgebruiker voor het beheren van de database.
+                        Ik ben een actieve contributor aan dit project en deel
+                        van de key contributors group (<a
+                            href="https://directus.io/"
+                        >
+                            directus.io </a
+                        >)
                     </div>
                 </div>
             </div>
@@ -291,9 +318,10 @@ export default defineComponent({
 
     a {
         transition: color 200ms ease;
+        color: var(--color-primary);
 
         &:hover {
-            color: var(--color-primary);
+            filter: brightness(85%);
         }
     }
 
@@ -308,6 +336,10 @@ export default defineComponent({
         color: black;
 
         border-radius: 10px;
+
+        a {
+            color: black;
+        }
 
         @media not print {
             @media (max-width: $breakpoint-md) {
@@ -385,8 +417,6 @@ export default defineComponent({
 
         @media print {
             padding-top: 1.2em;
-
-            page-break-inside: avoid;
         }
 
         &-title {
@@ -396,13 +426,14 @@ export default defineComponent({
 
             color: var(--color-primary);
         }
-
-        &-content {
-        }
     }
 
     &-subsection {
         padding: 1em 0;
+
+        @media print {
+            page-break-inside: avoid;
+        }
     }
 }
 </style>
