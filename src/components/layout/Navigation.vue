@@ -63,12 +63,12 @@ export default defineComponent({
             {
                 text: "Blog",
                 to: "/blog"
-            },
+            }
 
-            {
+            /*{
                 text: "CV",
                 to: "/cv"
-            }
+            }*/
         ]);
 
         return {
