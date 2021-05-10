@@ -234,7 +234,12 @@ export default {
      * Auto import components
      * @ref https://go.nuxtjs.dev/config-components
      */
-    components: true,
+    components: [
+        {
+            path: "@/components/",
+            pathPrefix: false // Do not include the path prefix in the component name
+        }
+    ],
 
     /**
      * Modules for dev and build (recommended)
@@ -280,6 +285,16 @@ export default {
         /**
          * Extract all CSS into seperate CSS files.
          */
-        extractCSS: true
+        extractCSS: true,
+
+        /**
+         * Babel
+         */
+        babel: {
+            plugins: [
+                // Fix for: https://bit.ly/3vFJkAY
+                ["@babel/plugin-proposal-private-methods", { loose: true }]
+            ]
+        }
     }
 };
