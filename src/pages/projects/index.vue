@@ -30,10 +30,9 @@
 <script lang="ts">
 import {
     defineComponent,
-    shallowRef,
     useContext,
-    useAsync,
-    useMeta
+    useMeta,
+    useStatic
 } from "@nuxtjs/composition-api";
 
 export default defineComponent({
@@ -43,14 +42,13 @@ export default defineComponent({
         /**
          * Projects
          */
-        const projects = shallowRef<any>([]);
-
-        /**
-         * Fetch content
-         */
-        useAsync(async () => {
-            projects.value = await $content("projects").sortBy("order").fetch();
-        });
+        const projects = useStatic(
+            async () => {
+                return await $content("projects").sortBy("order").fetch();
+            },
+            undefined,
+            "projects"
+        );
 
         /**
          * SEO

@@ -61,9 +61,8 @@
 import {
     computed,
     defineComponent,
-    shallowRef,
     useContext,
-    useAsync,
+    useStatic,
     useMeta
 } from "@nuxtjs/composition-api";
 
@@ -72,9 +71,24 @@ export default defineComponent({
         const { params, $content, error } = useContext();
 
         /**
+         * Blog post slug
+         */
+        const slug = computed(() => params.value.slug);
+
+        /**
          * Blog post to display.
          */
-        const post = shallowRef<any>(null);
+        const post = useStatic(
+            async (slug) => {
+                try {
+                    return await $content("blog", slug).fetch();
+                } catch (exception) {
+                    error({ statusCode: 404 });
+                }
+            },
+            slug,
+            "post"
+        );
 
         /**
          * Date of the post.
@@ -82,17 +96,6 @@ export default defineComponent({
         const date = computed(() =>
             new Date(Date.parse(post.value?.date)).toLocaleDateString()
         );
-
-        /**
-         * Get the blog post.
-         */
-        useAsync(async () => {
-            try {
-                post.value = await $content("blog", params.value.slug).fetch();
-            } catch (exception) {
-                error({ statusCode: 404 });
-            }
-        });
 
         /**
          * SEO

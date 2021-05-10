@@ -29,10 +29,9 @@
 <script lang="ts">
 import {
     defineComponent,
-    shallowRef,
     useContext,
-    useAsync,
-    useMeta
+    useMeta,
+    useStatic
 } from "@nuxtjs/composition-api";
 
 export default defineComponent({
@@ -42,14 +41,13 @@ export default defineComponent({
         /**
          * Blog posts to display.
          */
-        const posts = shallowRef<any>(null);
-
-        /**
-         * Get the blog posts.
-         */
-        useAsync(async () => {
-            posts.value = await $content("blog").sortBy("createdAt").fetch();
-        });
+        const posts = useStatic(
+            async () => {
+                return await $content("blog").sortBy("createdAt").fetch();
+            },
+            undefined,
+            "posts"
+        );
 
         /**
          * SEO

@@ -89,8 +89,8 @@ import { mdiArrowRight } from "@mdi/js";
 import {
     defineComponent,
     shallowRef,
-    useAsync,
-    useContext
+    useContext,
+    useStatic
 } from "@nuxtjs/composition-api";
 import { Skill } from "../components/view/skill-card/Skill";
 
@@ -159,27 +159,30 @@ export default defineComponent({
         /**
          * Projects
          */
-        const projects = shallowRef<any>([]);
+        const projects = useStatic(
+            async () => {
+                return await $content("projects")
+                    .where({ featured: true })
+                    .sortBy("order")
+                    .fetch();
+            },
+            undefined,
+            "projects-featured"
+        );
 
         /**
          * Blog posts to display.
          */
-        const posts = shallowRef<any>(null);
-
-        /**
-         * Fetch content
-         */
-        useAsync(async () => {
-            projects.value = await $content("projects")
-                .where({ featured: true })
-                .sortBy("order")
-                .fetch();
-
-            posts.value = await $content("blog")
-                .sortBy("createdAt")
-                .limit(3)
-                .fetch();
-        });
+        const posts = useStatic(
+            async () => {
+                return await $content("blog")
+                    .sortBy("createdAt")
+                    .limit(3)
+                    .fetch();
+            },
+            undefined,
+            "posts-featured"
+        );
 
         return {
             skills,
