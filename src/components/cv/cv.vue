@@ -84,7 +84,7 @@
 
                     <ul>
                         <li><b>JavaScript/TypeScript</b></li>
-                        <li><b>HTML/CSS</b> <i>(SASS, SCSS)</i></li>
+                        <li><b>HTML/CSS</b> (SASS, SCSS)</li>
                         <li><b>Python</b></li>
                         <li><b>Java</b></li>
                         <li>
@@ -156,18 +156,16 @@
 
                     <div>
                         Programmeren als hobby in verschillende programmeertalen
-                        aan hobby of bestaande open-source projecten. Deze
-                        projecten zijn vooral gericht rond web development.
-                        <br />
-                        Deze projecten zijn te vinden op mijn persoonlijke
-                        website.
+                        aan solo of open-source projecten. Deze projecten zijn
+                        vooral gericht rond web development. Een lijst van
+                        projecten is te vinden op mijn persoonlijke website
                         <a href="https://maartenvn.be" target="_blank"
                             >maartenvn.be</a
                         >
                         of op
                         <a href="https://github.com/maartenvn" target="_blank"
                             >Github</a
-                        >
+                        >.
                     </div>
                 </div>
 
@@ -185,15 +183,12 @@
                             href="https://www.oilsjtmjoezik.be"
                             target="_blank"
                             >www.oilsjtmjoezik.be</a
-                        >)
-                        <br />
-                        Dit project werd gerealiseerd in 2 weken en werd
+                        >). Dit project werd gerealiseerd in 2 weken en werd
                         geschreven in Vue <i>(Nuxt)</i> en Node.js
                         <i> (Nest.js)</i> met een Directus admin paneel voor de
-                        eindgebruikers.
-                        <br />
-                        Het platform draait volledig in docker containers en
-                        wordt automatisch gedeployed via een Jenkins server.
+                        eindgebruikers. Het platform draait volledig in docker
+                        containers en wordt automatisch gedeployed via een
+                        Jenkins server.
                     </div>
                 </div>
 
@@ -209,10 +204,10 @@
                         Services Squad. Deze job bestond uit het realiseren van
                         een klein project rond het crowdsourcen van
                         trainingphrases voor de chatbot Marie en het ontwikkelen
-                        van een label tool voor data-anonimisatie. Deze job
-                        speelde zich af in een Agile omgeving, gebruik makende
-                        van het SCRUM model en werken met de Sprint
-                        planningstool Service Now.
+                        van een label tool voor data-anonimisatie. Dit speelde
+                        zich af in een Agile omgeving, gebruik makende van het
+                        SCRUM model en werken met de Sprint planningstool
+                        Service Now.
                     </div>
                 </div>
 
@@ -225,13 +220,13 @@
 
                     <div>
                         Ontwerpen en programmeren van de website van
-                        studenten-vereniging Caepa Vestigia (<a
+                        studentenvereniging Caepa Vestigia (<a
                             href="https://www.caepavestigia.be"
                             target="_blank"
                             >www.caepavestigia.be</a
-                        >). Dit project werd geschreven in Vue en Node.js
-                        <i>(Express)</i> en wordt gedeployed via een Ansible
-                        script op een Ubuntu Linux server.
+                        >). Dit project werd geschreven in Vue en Node.js en
+                        wordt gedeployed via een Ansible script op een Ubuntu
+                        Linux server.
                     </div>
                 </div>
 
@@ -252,9 +247,8 @@
                         Ik ben een actieve contributor aan dit project en deel
                         van de key contributors group (<a
                             href="https://directus.io/"
-                        >
-                            directus.io </a
-                        >)
+                            >directus.io</a
+                        >).
                     </div>
                 </div>
             </div>
@@ -280,11 +274,22 @@
 
                 <div class="cv-subsection">
                     <div>
-                        <strong>Studenten Vereniging</strong>
+                        <strong>Studentenvereniging</strong>
                     </div>
 
                     <div>
-                        Lid van de Aalsterse studentenvereniging Caepa Vestigia
+                        Lid van de Aalsterse studentenvereniging Caepa Vestigia.
+                    </div>
+                </div>
+
+                <div class="cv-subsection">
+                    <div>
+                        <strong>Zeus WPI</strong>
+                    </div>
+
+                    <div>
+                        Actief lid binnen Zeus WPI, de studentenorganisatie voor
+                        Informatica aan de Universiteit Gent.
                     </div>
                 </div>
             </div>
