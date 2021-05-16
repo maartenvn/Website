@@ -271,7 +271,7 @@ export default {
      * Loading indicator.
      */
     loading: {
-        color: "#4281fe",
+        color: "#0a275a",
         height: "3px"
     },
 
