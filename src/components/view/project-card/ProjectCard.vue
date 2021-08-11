@@ -54,6 +54,20 @@
                 </v-btn>
             </template>
 
+            <!-- Gitlab -->
+            <template v-if="project.links.gitlab">
+                <v-btn
+                    :href="project.links.gitlab"
+                    target="_blank"
+                    color="primary"
+                    text
+                >
+                    <v-icon :icon="icons.mdiGitlab" left />
+
+                    Gitlab
+                </v-btn>
+            </template>
+
             <!-- Docs -->
             <template v-if="project.links.docs">
                 <v-btn
@@ -73,7 +87,7 @@
 
 <script lang="ts">
 import { computed, defineComponent } from "@nuxtjs/composition-api";
-import { mdiLink, mdiGithub, mdiBookOpen } from "@mdi/js";
+import { mdiLink, mdiGithub, mdiGitlab, mdiBookOpen } from "@mdi/js";
 
 export default defineComponent({
     props: {
@@ -93,9 +107,9 @@ export default defineComponent({
          */
         const link = computed(
             () =>
-                props.project.links.github ||
-                props.project.links.website ||
-                props.project.links.docs
+                props.project.links?.github ||
+                props.project.links?.website ||
+                props.project.links?.docs
         );
 
         return {
@@ -103,6 +117,7 @@ export default defineComponent({
             icons: {
                 mdiLink,
                 mdiGithub,
+                mdiGitlab,
                 mdiBookOpen
             }
         };
