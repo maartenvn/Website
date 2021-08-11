@@ -1,5 +1,9 @@
 <template>
-    <div class="project-card card card--stretch">
+    <a
+        class="project-card card card--stretch card--hover"
+        :href="link"
+        target="_blank"
+    >
         <!-- Image -->
         <v-img :src="project.image || ''" :alt="project.title">
             <!-- Placeholder -->
@@ -64,11 +68,11 @@
                 </v-btn>
             </template>
         </div>
-    </div>
+    </a>
 </template>
 
 <script lang="ts">
-import { defineComponent } from "@nuxtjs/composition-api";
+import { computed, defineComponent } from "@nuxtjs/composition-api";
 import { mdiLink, mdiGithub, mdiBookOpen } from "@mdi/js";
 
 export default defineComponent({
@@ -82,8 +86,20 @@ export default defineComponent({
         }
     },
 
-    setup() {
+    setup(props) {
+        /**
+         * Primary link of the card.
+         * Each property has it's precendence and the highest available property will become the link.
+         */
+        const link = computed(
+            () =>
+                props.project.links.github ||
+                props.project.links.website ||
+                props.project.links.docs
+        );
+
         return {
+            link,
             icons: {
                 mdiLink,
                 mdiGithub,
