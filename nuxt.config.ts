@@ -1,3 +1,5 @@
+import seo from "./seo.config";
+
 export default {
     /**
      * Source directory
@@ -19,8 +21,7 @@ export default {
      * @ref https://go.nuxtjs.dev/config-head
      */
     head: {
-        title:
-            "Maarten Van Neyghem - Computer Science Student at Ghent University",
+        title: `${seo.title} - ${seo.description}`,
         meta: [
             /**
              * Defaults
@@ -41,28 +42,27 @@ export default {
             {
                 hid: "title",
                 name: "title",
-                content: "Maarten Van Neyghem"
+                content: seo.title
             },
             {
                 hid: "description",
                 name: "description",
-                content: "Computer Science Student at Ghent University"
+                content: seo.description
             },
             {
                 hid: "image",
                 name: "image",
-                content: "/img/logo.png"
+                content: seo.image
             },
             {
                 hid: "author",
                 name: "author",
-                content: "Maarten Van Neyghem"
+                content: seo.authors
             },
             {
                 hid: "keywords",
                 name: "keywords",
-                content:
-                    "Maarten Van Neyghem, Maartenvn, UGent, University Ghent, Computer Science, CS, Student"
+                content: seo.keywords
             },
             {
                 hid: "robots",
@@ -74,17 +74,17 @@ export default {
             {
                 hid: "schema-name",
                 itemprop: "name",
-                content: "Maarten Van Neyghem"
+                content: seo.title
             },
             {
                 hid: "schema-description",
                 itemprop: "description",
-                content: "Computer Science Student at Ghent University"
+                content: seo.description
             },
             {
                 hid: "schema-image",
                 itemprop: "image",
-                content: "/img/logo.png"
+                content: seo.image
             },
 
             // SEO (Twitter)
@@ -96,44 +96,44 @@ export default {
             {
                 hid: "twitter:title",
                 name: "twitter:title",
-                content: "Maarten Van Neyghem"
+                content: seo.title
             },
             {
                 hid: "twitter:description",
                 name: "twitter:description",
-                content: "Computer Science Student at Ghent University"
+                content: seo.description
             },
             {
                 hid: "twitter:site",
                 name: "twitter:site",
-                content: "@maarten_vn"
+                content: seo.twitterHandle
             },
             {
                 hid: "twitter:img:src",
                 name: "twitter:img:src",
-                content: "/img/logo.png"
+                content: seo.image
             },
 
             // SEO (Facebook)
             {
                 hid: "og:title",
                 property: "og:title",
-                content: "Maarten Van Neyghem"
+                content: seo.title
             },
             {
                 hid: "og:description",
                 property: "og:description",
-                content: "Computer Science Student at Ghent University"
+                content: seo.description
             },
             {
                 hid: "og:image",
                 property: "og:image",
-                content: "/img/logo.png"
+                content: seo.image
             },
             {
                 hid: "og:site_name",
                 property: "og:site_name",
-                content: "maartenvn.be"
+                content: seo.site
             },
             {
                 hid: "og:locale",
@@ -150,7 +150,7 @@ export default {
             {
                 hid: "apple-mobile-web-app-title",
                 name: "apple-mobile-web-app-title",
-                content: "Maarten Van Neyghem"
+                content: seo.title
             },
 
             /**
