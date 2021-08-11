@@ -258,7 +258,7 @@ export default {
      * @ref https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-hooks
      */
     hooks: {
-        "content:file:beforeInsert": (document) => {
+        "content:file:beforeInsert": (document: any) => {
             if (document.extension === ".md") {
                 const { minutes } = require("reading-time")(document.text);
 
