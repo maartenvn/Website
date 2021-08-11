@@ -177,8 +177,8 @@ export default defineComponent({
     font-weight: 500;
 
     border-radius: 10px;
-    transition: color 200ms ease;
-    transition-property: background-color, color, opacity;
+    transition: all 200ms ease;
+    transition-property: color, opacity;
 
     &:before {
         content: "";
