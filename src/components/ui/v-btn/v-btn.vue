@@ -37,6 +37,7 @@ export default defineComponent({
      */
     block: {
       type: Boolean as PropType<boolean>,
+      default: false,
     },
 
     /**
@@ -44,6 +45,7 @@ export default defineComponent({
      */
     text: {
       type: Boolean as PropType<boolean>,
+      default: false,
     },
 
     /**
@@ -51,6 +53,7 @@ export default defineComponent({
      */
     fill: {
       type: Boolean as PropType<boolean>,
+      default: false,
     },
 
     /**
@@ -58,6 +61,7 @@ export default defineComponent({
      */
     outline: {
       type: Boolean as PropType<boolean>,
+      default: false,
     },
 
     /**
@@ -65,6 +69,7 @@ export default defineComponent({
      */
     soft: {
       type: Boolean as PropType<boolean>,
+      default: false,
     },
 
     /**
@@ -72,6 +77,7 @@ export default defineComponent({
      */
     xSmall: {
       type: Boolean as PropType<boolean>,
+      default: false,
     },
 
     /**
@@ -79,6 +85,7 @@ export default defineComponent({
      */
     small: {
       type: Boolean as PropType<boolean>,
+      default: false,
     },
 
     /**
@@ -86,6 +93,7 @@ export default defineComponent({
      */
     large: {
       type: Boolean as PropType<boolean>,
+      default: false,
     },
 
     /**
@@ -93,6 +101,7 @@ export default defineComponent({
      */
     disabled: {
       type: Boolean as PropType<boolean>,
+      default: false,
     },
   },
 
