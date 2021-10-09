@@ -18,7 +18,7 @@
                         </v-btn>
 
                         <v-btn soft href="cv.pdf" target="_blank">
-                            <v-icon :icon="icons.mdiFilePdf" />
+                            <v-icon :icon="icons.mdiFilePdfBox" />
                         </v-btn>
                     </div>
 
@@ -32,7 +32,7 @@
 
 <script lang="ts">
 import { defineComponent, useMeta } from "@nuxtjs/composition-api";
-import { mdiPrinter, mdiFilePdf } from "@mdi/js";
+import { mdiPrinter, mdiFilePdfBox } from "@mdi/js";
 
 export default defineComponent({
     setup() {
@@ -83,7 +83,7 @@ export default defineComponent({
             print,
             icons: {
                 mdiPrinter,
-                mdiFilePdf
+                mdiFilePdfBox
             }
         };
     },
