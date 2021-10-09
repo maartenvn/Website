@@ -20,6 +20,7 @@ export default defineComponent({
      */
     icon: {
       type: String as PropType<string>,
+      required: true,
     },
 
     /**
@@ -35,6 +36,7 @@ export default defineComponent({
      */
     left: {
       type: Boolean as PropType<boolean>,
+      default: false,
     },
 
     /**
@@ -42,6 +44,7 @@ export default defineComponent({
      */
     right: {
       type: Boolean as PropType<boolean>,
+      default: false,
     },
   },
 
