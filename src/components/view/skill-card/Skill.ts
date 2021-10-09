@@ -1,30 +1,30 @@
 export interface Skill {
-    /**
-     * Title
-     * Displayed at the top of the card.
-     */
-    title: String;
+  /**
+   * Title
+   * Displayed at the top of the card.
+   */
+  title: String;
 
-    /**
-     * Description
-     * Displayed below the title.
-     */
-    description: string;
+  /**
+   * Description
+   * Displayed below the title.
+   */
+  description: string;
 
-    /**
-     * Sections
-     */
-    sections: SkillSection[];
+  /**
+   * Sections
+   */
+  sections: SkillSection[];
 }
 
 export interface SkillSection {
-    /**
-     * Title
-     */
-    title: String;
+  /**
+   * Title
+   */
+  title: String;
 
-    /**
-     * Content
-     */
-    content: String;
+  /**
+   * Content
+   */
+  content: String;
 }

@@ -1,13 +1,13 @@
 <template>
-    <div>
-        <!-- Navigation -->
-        <navigation />
+  <div>
+    <!-- Navigation -->
+    <navigation />
 
-        <!-- Content -->
-        <div class="content">
-            <Nuxt />
-        </div>
+    <!-- Content -->
+    <div class="content">
+      <Nuxt />
     </div>
+  </div>
 </template>
 
 <script lang="ts">

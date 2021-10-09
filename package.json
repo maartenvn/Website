@@ -1,48 +1,48 @@
 {
-    "name": "@maartenvn/website",
-    "version": "1.0.0",
-    "private": true,
-    "scripts": {
-        "dev": "nuxt",
-        "build": "nuxt build",
-        "start": "nuxt start",
-        "generate": "nuxt generate",
-        "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
-        "lint": "yarn lint:js"
-    },
-    "lint-staged": {
-        "*.{js,vue}": "eslint"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
-    "dependencies": {
-        "@mdi/js": "^6.2.95",
-        "@nuxt/content": "^1.14.0",
-        "@nuxtjs/composition-api": "^0.29.2",
-        "@nuxtjs/style-resources": "^1.2.1",
-        "bootstrap": "^5.1.2",
-        "core-js": "^3.18.2",
-        "nuxt": "^2.15.8",
-        "reading-time": "^1.5.0"
-    },
-    "devDependencies": {
-        "@nuxt/types": "^2.15.8",
-        "@nuxt/typescript-build": "^2.1.0",
-        "@nuxtjs/eslint-config": "^6.0.1",
-        "@nuxtjs/eslint-config-typescript": "^6.0.1",
-        "@nuxtjs/eslint-module": "^3.0.2",
-        "babel-eslint": "^10.1.0",
-        "eslint": "^7.32.0",
-        "eslint-config-prettier": "^8.3.0",
-        "eslint-plugin-nuxt": "^2.0.0",
-        "eslint-plugin-prettier": "^4.0.0",
-        "husky": "^7.0.2",
-        "lint-staged": "^11.2.1",
-        "prettier": "^2.4.1",
-        "sass": "^1.42.1",
-        "sass-loader": "^10.1.1"
+  "name": "@maartenvn/website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "yarn lint:js"
+  },
+  "lint-staged": {
+    "*.{js,vue}": "eslint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
+  },
+  "dependencies": {
+    "@mdi/js": "^6.2.95",
+    "@nuxt/content": "^1.14.0",
+    "@nuxtjs/composition-api": "^0.29.2",
+    "@nuxtjs/style-resources": "^1.2.1",
+    "bootstrap": "^5.1.2",
+    "core-js": "^3.18.2",
+    "nuxt": "^2.15.8",
+    "reading-time": "^1.5.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.8",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/eslint-config": "^6.0.1",
+    "@nuxtjs/eslint-config-typescript": "^6.0.1",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.1",
+    "prettier": "^2.4.1",
+    "sass": "^1.42.1",
+    "sass-loader": "^10.1.1"
+  }
 }

@@ -1,11 +1,11 @@
 export interface NavigationEntry {
-    /**
-     * Text
-     */
-    text: string;
+  /**
+   * Text
+   */
+  text: string;
 
-    /**
-     * Path to the route
-     */
-    to: string;
+  /**
+   * Path to the route
+   */
+  to: string;
 }
