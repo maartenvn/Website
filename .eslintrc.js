@@ -6,17 +6,23 @@ module.exports = {
   },
   extends: [
     "@nuxtjs/eslint-config-typescript",
-    "prettier",
-    "plugin:prettier/recommended",
+    "plugin:vue/recommended",
     "plugin:nuxt/recommended",
+    "plugin:prettier/recommended",
+    "prettier",
   ],
-  plugins: ["prettier"],
+  plugins: ["prettier", "simple-import-sort"],
   rules: {
-    "@typescript-eslint/camelcase": "off",
-    "vue/attributes-order": "off",
-    "vue/order-in-components": "off",
-    "vue/no-v-html": "off",
-    "vue/require-default-prop": "off",
+    // Import Sorter
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+
+    // Composition API Specific Rules
+    // These rules are designed for Vue 3, but should also work with Vue 2.
+    "vue/no-ref-as-operand": "error",
+    "vue/no-setup-props-destructure": "error",
+
+    // Error instead of warning on specific rules
+    "vue/require-prop-types": "error",
   },
-  overrides: [],
 };
