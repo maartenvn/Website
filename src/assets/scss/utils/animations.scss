@@ -1,23 +1,23 @@
 @keyframes fadeInDown {
-    0% {
-        opacity: 0;
-        transform: translateY(-50%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeInDownLarge {
-    0% {
-        opacity: 0;
-        transform: translateY(-50%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /**
@@ -25,40 +25,40 @@
  */
 .fade-enter-active,
 .fade-leave-active {
-    transition: opacity 0.2s;
+  transition: opacity 0.2s;
 }
 
 .fade-enter,
 .fade-leave-to {
-    opacity: 0;
+  opacity: 0;
 }
 
 @media (max-width: $breakpoint-xs) {
-    .animation-disabled-xs-and-down {
-        animation: none !important;
-    }
+  .animation-disabled-xs-and-down {
+    animation: none !important;
+  }
 }
 
 @media (max-width: $breakpoint-sm) {
-    .animation-disabled-sm-and-down {
-        animation: none !important;
-    }
+  .animation-disabled-sm-and-down {
+    animation: none !important;
+  }
 }
 
 @media (max-width: $breakpoint-md) {
-    .animation-disabled-md-and-down {
-        animation: none !important;
-    }
+  .animation-disabled-md-and-down {
+    animation: none !important;
+  }
 }
 
 @media (max-width: $breakpoint-lg) {
-    .animation-disabled-lg-and-down {
-        animation: none !important;
-    }
+  .animation-disabled-lg-and-down {
+    animation: none !important;
+  }
 }
 
 @media (max-width: $breakpoint-xl) {
-    .animation-disabled-xl-and-down {
-        animation: none !important;
-    }
+  .animation-disabled-xl-and-down {
+    animation: none !important;
+  }
 }
