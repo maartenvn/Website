@@ -1,5 +1,5 @@
 export enum ImageStatus {
-    LOADING,
-    SUCCESS,
-    ERROR
+  LOADING,
+  SUCCESS,
+  ERROR,
 }
