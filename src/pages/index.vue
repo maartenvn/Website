@@ -20,15 +20,7 @@
           :key="index"
           class="col-12 col-md-6 col-lg-4 mb-4"
         >
-          <v-animation
-            class="animation-disabled-md-and-down"
-            name="fadeInDown"
-            duration="0.8s"
-            delay="0.2s"
-            :delay-multiply="index"
-          >
-            <skill-card :skill="skill" />
-          </v-animation>
+          <skill-card :skill="skill" />
         </div>
       </div>
     </div>
