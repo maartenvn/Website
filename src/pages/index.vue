@@ -6,8 +6,8 @@
         <div class="hero-title">Maarten Van Neyghem</div>
 
         <div class="hero-description">
-          Computer Science Student at Ghent University. Passionate front-end
-          developer in various frameworks/languages.
+          Full Stack Web &amp; Mobile Developer. Passionate about frontend
+          frameworks and the future of the web as mobile app platform.
         </div>
       </div>
     </div>
