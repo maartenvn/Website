@@ -1,6 +1,6 @@
 ---
 title: Studium
-description: "Studium is a platform for educational tips and materials that will help you process your courses. Get involved and start contributing! "
+description: "Studium is a platform for the University of Ghent for sharing course material between students. The application was written in Nuxt/Vue, GraphQL and Python (Django)."
 image: /img/content/projects/studium.png
 featured: true
 order: 1
