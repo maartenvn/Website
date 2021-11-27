@@ -2,18 +2,18 @@ export default {
   /**
    * Title
    */
-  title: "Maarten Van Neyghem - Computer Science Student at Ghent University",
+  title: "Maarten Van Neyghem",
 
   /**
    * Description
    */
-  description: "Computer Science Student at Ghent University",
+  description: "Full Stack Web & Mobile Developer",
 
   /**
    * Keywords
    */
   keywords:
-    "Maarten Van Neyghem, Maartenvn, UGent, University Ghent, Computer Science, CS, Student",
+    "Maarten Van Neyghem, Maartenvn, Computer Science, CS, Student, Web Developer, Mobile Web Developer, Full Stack Developer",
 
   /**
    * Authors
