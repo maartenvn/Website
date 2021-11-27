@@ -38,7 +38,7 @@
     <!-- Opleiding -->
     <div class="cv-section">
       <!-- Title -->
-      <div class="cv-section-title">Opleidingen</div>
+      <div class="cv-section-title">Education</div>
 
       <!-- Content -->
       <div class="cv-section-content">
@@ -52,18 +52,39 @@
           <div>SVI-Gijzegem</div>
 
           <div>
-            <i>Afgestudeerd met onderscheiding</i>
+            <i>Graduated with honors.</i>
           </div>
         </div>
 
         <div class="cv-subsection">
           <div>
-            <strong> Academic Bachelor of Science in de informatica </strong>
+            <strong> Academic Bachelor of Computer Science </strong>
 
-            <i>(2018 - heden)</i>
+            <i>(2018 - 2021)</i>
           </div>
 
-          <div>Universiteit Gent</div>
+          <div>Ghent University</div>
+
+          <div>
+            <i>
+              Discontinued in favor of a more practical program with more focus
+              on web &amp; mobile development.
+            </i>
+          </div>
+        </div>
+
+        <div class="cv-subsection">
+          <div>
+            <strong> Professional Bachelor in Electronics-ICT </strong>
+
+            <i>(2021 - present)</i>
+          </div>
+
+          <div>Odisee</div>
+
+          <div>
+            <i>Specialisation in Web &amp; Mobile Development.</i>
+          </div>
         </div>
       </div>
     </div>
@@ -71,12 +92,14 @@
     <!-- Vaardigheden -->
     <div class="cv-section">
       <!-- Title -->
-      <div class="cv-section-title">Vaardigheden</div>
+      <div class="cv-section-title">Skills</div>
 
       <!-- Content -->
       <div class="cv-section-content">
         <ul>
-          <li>Kennis van verscheidene programmeertalen:</li>
+          <li>
+            Knowledge and experience with different programming languages:
+          </li>
 
           <ul>
             <li><b>JavaScript/TypeScript</b></li>
@@ -85,7 +108,7 @@
             <li><b>Java</b></li>
             <li>
               <b>Kotlin</b>
-              (Android Applicaties, Spring Boot)
+              (Android Applications, Spring Boot)
             </li>
             <li>
               <b>SQL</b>
@@ -97,40 +120,59 @@
           <br />
 
           <li>
-            Full-stack web developer in verschillende programmeertalen en
-            frameworks:
+            Full-stack web developer in different programming languages and
+            frameworks.
           </li>
 
           <ul>
             <li>
-              <b>Frontend Frameworks:</b> Vue, Nuxt, React, Next, Svelte &
+              <b>Frontend Frameworks:</b> Vue, Nuxt, React, Next, Svelte &amp;
               JQuery
             </li>
 
             <li>
-              <b>Backend Frameworks:</b> Express.js, Nest.js, Spring Boot &
+              <b>Backend Frameworks:</b> Express.js, Nest.js, Spring Boot &amp;
               Flask
             </li>
 
-            <li><b>Databases:</b> PostgreSQL, MySQL & SQLite 3</li>
+            <li><b>Databases:</b> PostgreSQL, MySQL &amp; SQLite 3</li>
 
-            <li><b>Architecturen:</b> REST & GraphQL</li>
+            <li><b>API Architectures:</b> REST &amp; GraphQL</li>
           </ul>
 
           <br />
 
-          <li>Ervaring met systeembeheer van (web) platformen:</li>
+          <li>Experience with system administration of (web) platforms:</li>
 
           <ul>
-            <li><b>Orchestration:</b> Docker & Docker Compose</li>
+            <li><b>Orchestration:</b> Docker &amp; Docker Compose</li>
 
-            <li><b>CI/CD:</b> Jenkins, Travis & Github Actions</li>
+            <li><b>CI/CD:</b> Jenkins, Travis &amp; Github Actions</li>
 
-            <li><b>Operating Systems:</b> Ubuntu & Arch Linux</li>
+            <li><b>Operating Systems:</b> Ubuntu &amp; Arch Linux</li>
 
-            <li><b>Version Control:</b> Git, Github & Gitlab</li>
+            <li><b>Version Control:</b> Git, Github &amp; Gitlab</li>
 
-            <li><b>Andere tools:</b> NGINX, Let's Encrypt</li>
+            <li><b>Other tools:</b> NGINX, Let's Encrypt</li>
+          </ul>
+
+          <br />
+
+          <li>Experience with working in team:</li>
+
+          <ul>
+            <li>
+              <b>Open-source projects:</b> working on multiple open-source
+              projects in different teams.
+            </li>
+            <li>
+              <b>School environment:</b> working on multiple projects with other
+              students.
+            </li>
+            <li>
+              <b>Professional environment:</b> working with a team of 5 to 10
+              people in an Agile/SCRUM environment.
+            </li>
           </ul>
         </ul>
       </div>
@@ -139,45 +181,44 @@
     <!-- Ervaring -->
     <div class="cv-section">
       <!-- Title -->
-      <div class="cv-section-title">Ervaring</div>
+      <div class="cv-section-title">Experience</div>
 
       <!-- Content -->
       <div class="cv-section-content">
         <div class="cv-subsection">
           <div>
-            <strong>Hobbyprogrammeur</strong>
+            <strong>Hobby Programmer</strong>
 
-            <i>(2012 - heden)</i>
+            <i>(2012 - present)</i>
           </div>
 
           <div>
-            Programmeren als hobby in verschillende programmeertalen aan solo of
-            open-source projecten. Deze projecten zijn vooral gericht rond web
-            development. Een lijst van projecten is te vinden op mijn
-            persoonlijke website
+            Programming as a hobby in different programming languages, both solo
+            or open-source team projects. A list of my projects is available on
             <a href="https://maartenvn.be" target="_blank">maartenvn.be</a>
-            of op
+            or on
             <a href="https://github.com/maartenvn" target="_blank">Github</a>.
           </div>
         </div>
 
         <div class="cv-subsection">
           <div>
-            <strong> Webplatform Oilsjt Mjoezik </strong>
+            <strong> Web platform Oilsjt Mjoezik </strong>
 
-            <i>(2018 - heden)</i>
+            <i>(2018 - present)</i>
           </div>
 
           <div>
-            Deze opdracht bestond uit het volledig uitwerken en programmeren van
-            de website van de Aalsterse carnavalsradio Oilsjt Mjoezik (<a
+            The complete development of the web platform for the Aalsterse
+            Carnaval Radio: Oilsjt Mjoezik (<a
               href="https://www.oilsjtmjoezik.be"
               target="_blank"
               >www.oilsjtmjoezik.be</a
-            >). Dit project werd gerealiseerd in 2 weken en werd geschreven in
-            Vue <i>(Nuxt)</i> en Node.js <i> (Nest.js)</i> met een Directus
-            admin paneel voor de eindgebruikers. Het platform draait volledig in
-            docker containers en wordt automatisch gedeployed via een Jenkins
+            >). The original project was written in PHP and later rewritten in
+            around 2 weeks using Vue <i>(Nuxt)</i> and Node.js (<i>Nest.js</i>).
+            The platform uses a Directus admin panel to offer a user-friendly
+            way of managing the data. The entire platform is deployed in docker
+            containers and is automatically updated using a Jenkins CI/CD
             server.
           </div>
         </div>
@@ -186,52 +227,84 @@
           <div>
             <strong> Studentenjob ING </strong>
 
-            <i>(Augustus 2018, Juli 2019)</i>
+            <i>(August 2018, July 2019)</i>
           </div>
 
           <div>
-            Studentenjob binnen ING bij de Virtual Assistant Services Squad.
-            Deze job bestond uit het realiseren van een klein project rond het
-            crowdsourcen van trainingphrases voor de chatbot Marie en het
-            ontwikkelen van een label tool voor data-anonimisatie. Dit speelde
-            zich af in een Agile omgeving, gebruik makende van het SCRUM model
-            en werken met de Sprint planningstool Service Now.
+            Student job at the Virtual Assistant Services Squad of ING Belgium.
+            This job consisted of building a small project around crowdsourcing
+            trainingphrases for the chatbot Marie, during the first year, and
+            developing a label tool for data anonymization, during the second
+            year. This took place in an Agile environment, following the SCRUM
+            model and working with the Sprint planning tool Service Now.
           </div>
         </div>
 
         <div class="cv-subsection">
           <div>
-            <strong> Webplatform Caepa Vestigia </strong>
+            <strong> Zeus WPI </strong>
+
+            <i>(2019 - present)</i>
+          </div>
+
+          <div>
+            Zeus WPI is the student association for Computer Science at Ghent
+            University. Zeus has a lot of active projects for different
+            purposes. I am activly part of this association and also
+            contributing to their open-source project. More information and a
+            full list of projects can be found on
+            <a href="https://zeus.gent/">zeus.gent</a>.
+          </div>
+        </div>
+
+        <div class="cv-subsection">
+          <div>
+            <strong> Web platform Caepa Vestigia </strong>
 
             <i>(September 2019)</i>
           </div>
 
           <div>
-            Ontwerpen en programmeren van de website van studentenvereniging
-            Caepa Vestigia (<a
+            Development of the website for the student association (<a
               href="https://www.caepavestigia.be"
               target="_blank"
               >www.caepavestigia.be</a
-            >). Dit project werd geschreven in Vue en Node.js en wordt
-            gedeployed via een Ansible script op een Ubuntu Linux server.
+            >). This project is written in Vue and Node.js and is deployed on a
+            Ubuntu Linux server using Ansible.
           </div>
         </div>
 
         <div class="cv-subsection">
           <div>
-            <strong> Directus - Contributor </strong>
+            <strong> Directus: Contributor </strong>
 
-            <i>(September 2020 - heden)</i>
+            <i>(September 2020 - present)</i>
           </div>
 
           <div>
-            Directus is een open-source real-time database-driven headless-CMS
-            voor het beheren van SQL database content en is geschreven in Vue &
-            Node.js. Het zet een relationele SQL database om naar een REST &
-            GraphQL API en geeft een gebruikersvriendelijke Vue admin applicatie
-            aan de eindgebruiker voor het beheren van de database. Ik ben een
-            actieve contributor aan dit project en deel van de key contributors
-            group (<a href="https://directus.io/">directus.io</a>).
+            Directus is an open-source real-time database-driven headless-CMS
+            for managing SQL database content and is written in Vue &amp;
+            Node.js. It converts a relational SQL database to a REST &amp;
+            GraphQL API and provides a user-friendly Vue admin application to
+            the end user for managing the database. <br />
+            I am an active contributor to this project and part of the key
+            contributors group (<a href="https://directus.io/">directus.io</a>).
+          </div>
+        </div>
+
+        <div class="cv-subsection">
+          <div>
+            <strong>UGent: Studium</strong>
+
+            <i>(July 2021 - November 2021)</i>
+          </div>
+
+          <div>
+            Studium is an open-source platform for sharing study materials
+            between students, developed by the Gentse Studentenraad for the
+            University of Ghent. I was a member of the team that developed the
+            platform. The platform is written in Vue <i>(Nuxt)</i> &amp; Python
+            <i>Django</i>.
           </div>
         </div>
       </div>
@@ -240,7 +313,7 @@
     <!-- Hobbies -->
     <div class="cv-section">
       <!-- Title -->
-      <div class="cv-section-title">Hobby's</div>
+      <div class="cv-section-title">Hobbies</div>
 
       <!-- Content -->
       <div class="cv-section-content">
@@ -249,28 +322,15 @@
             <strong>DJ</strong>
           </div>
 
-          <div>
-            Mixen van muziek in clubs, privéfeesten en kleine evenementen.
-          </div>
+          <div>Providing music on clubs, small events or private parties.</div>
         </div>
 
         <div class="cv-subsection">
           <div>
-            <strong>Studentenvereniging</strong>
+            <strong>Sports</strong>
           </div>
 
-          <div>Lid van de Aalsterse studentenvereniging Caepa Vestigia.</div>
-        </div>
-
-        <div class="cv-subsection">
-          <div>
-            <strong>Zeus WPI</strong>
-          </div>
-
-          <div>
-            Actief lid binnen Zeus WPI, de studentenorganisatie voor Informatica
-            aan de Universiteit Gent.
-          </div>
+          <div>Swimming & running during the weekends.</div>
         </div>
       </div>
     </div>
