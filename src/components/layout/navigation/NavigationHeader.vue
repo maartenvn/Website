@@ -29,7 +29,7 @@
             <v-icon :icon="icons.mdiTwitter" />
           </a>
 
-          <a href="mail:maartenvn.eu@gmail.com" target="_blank">
+          <a href="mailto:maartenvn.eu@gmail.com" target="_blank">
             <v-icon :icon="icons.mdiEmail" />
           </a>
         </div>
